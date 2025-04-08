@@ -2,6 +2,15 @@
 ### ローカル環境に作業ディレクトリ作る
 <img width="570" alt="スクリーンショット 2025-04-08 10 24 59" src="https://github.com/user-attachments/assets/8853f472-8103-4e50-adc3-74322f5865dd" />
 
+作業ディレクトリ作成
+```
+mkdir ディレクトリ名
+```
+作業ディレクトリに移動
+```
+cd ディレクトリ名
+```
+
 ### リポジトリのクローン
 各自のPC上のターミナル(コマンドプロンプトとか)で次のコマンド実行
 ```
@@ -70,7 +79,7 @@ OK押します<br/>
 緑のボタン押す<br/>
 <img width="1470" alt="スクリーンショット 2025-04-08 10 37 51" src="https://github.com/user-attachments/assets/3a0cb8b5-bae9-4bd5-9bff-108256722702" />
 <br/>
-プルリクエストを書きます。マークダウンという記法で書いています。勉強しといてください。このREADMEもマークダウンです<br/>
+プルリクエストを書きます。**マークダウン** という記法で書いていきます。勉強しとくと超役立ちます。このREADMEもマークダウンです<br/>
 [マークダウン参考サイト](https://qiita.com/tbpgr/items/989c6badefff69377da7)
 右上のReviewsでレビュワーを選びます。自分以外の人を選びましょう。<br/>
 <img width="1261" alt="スクリーンショット 2025-04-08 10 43 18" src="https://github.com/user-attachments/assets/f781dcf5-d3a9-48a2-9e3a-e98e5a81cbe3" />
