@@ -3,5 +3,5 @@ Hello!!
 //この下に入力してね。ブランチ名は「fix/writeText1」
 「」
 
-//この下にも。ブランチ名は「fix/writeText1」
-「」
+//この下にも。ブランチ名は「fix/writeText2」
+「こんにちは。」
