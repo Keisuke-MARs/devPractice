@@ -1,7 +1,7 @@
 Hello!!
 
 //この下に入力してね。ブランチ名は「fix/writeText1」
-「」
+「Text」
 
 //この下にも。ブランチ名は「fix/writeText1」
 「」
