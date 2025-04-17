@@ -131,7 +131,10 @@ document.addEventListener('DOMContentLoaded', function () {
             for (let [key, value] of formData.entries()) {
                 formValues[key] = value;
             }
-
+            
+            //　送信可否
+            if(!window.confirm('以下の内容で送信します。\nお名前：'+contactForm.name.value+'\nメールアドレス：'+contactForm.email.value+'\n件名：'+contactForm.subject.value+'\nメッセージ：'+contactForm.message.value)){return}
+            
             // 送信成功メッセージ（実際の実装ではAPIへの送信処理を行う）
             alert('お問い合わせありがとうございます。メッセージが送信されました。');
             contactForm.reset();
