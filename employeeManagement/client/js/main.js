@@ -20,6 +20,7 @@ async function fetchEmployees() {
     try {
         // APIから社員データを取得
         const response = await fetch(API_URL);
+        console.log(response);
 
         // レスポンスが正常でない場合はエラーをスロー
         if (!response.ok) {
