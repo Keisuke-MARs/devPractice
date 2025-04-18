@@ -68,7 +68,7 @@ function displayEmployees(employees) {
       <td>${employee.age}</td>
       <td>
         <a href="edit.html?id=${employee.id}" class="btn btn-primary">編集</a>
-        <button class="btn btn-danger" onclick="deleteEmployee(${employee.id})">削除</button>
+        <button class="btn btn-danger" value="${employee.id}" onclick="deleteEmployee(event,'${employee.name}')">削除</button>
       </td>
     `;
 
@@ -78,11 +78,13 @@ function displayEmployees(employees) {
 
 /**
  * 社員を削除する関数
- * @param {number} id - 削除する社員のID
+ * @param {Event} e - 削除する社員のid
+ * @param {string} name - 削除する社員の名前
  */
-async function deleteEmployee(id) {
+async function deleteEmployee(e, name) {
+    const id = e.target.value;
     // 削除の確認
-    if (!confirm(`ID: ${id} の社員を削除してもよろしいですか？`)) {
+    if (!confirm(`名前: ${name} の社員を削除してもよろしいですか？`)) {
         return;
     }
 
